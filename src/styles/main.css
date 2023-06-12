@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Jura";
+    src: url("../fonts/Jura-Bold.ttf")
+    /* Add more src declarations for different file formats if available */
+}
+
+@font-face {
+    font-family: "Jura_Thin";
+    src: url('../fonts/Jura-Light.ttf');
+}
+
+h1, h2 {
+    font-family: "Jura", sans-serif;
+}
+
+h3, h4, h5, p {
+    font-family: "Jura_Thin", sans-serif;
+}
+
+.logo {
+    width: 250px; 
+    height: auto;
+}
+
+.blue_background {
+    background-color: rgba(89, 19, 219, 0.857);
+    color: white;
+}
+
+.text_body_blue {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.section_title {
+    color: rgba(89, 19, 219, 0.857);
+    font-weight:bolder;
+}
+
+.header {
+    background-color: rgba(89, 19, 219, 0.857);
+}
